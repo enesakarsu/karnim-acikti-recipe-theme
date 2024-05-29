@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Tarif - Karnım Acıktı</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="assets/css/style.css?ver=3"/>
+</head>
+<body>
+
+<!--HEADER-->
+<header>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+<a class="navbar-brand d-none d-lg-block d-xl-block" href="index.html">
+<img src="assets/images/karnimacikti.png" class="img-fluid logo d-none d-lg-block d-xl-block"/>
+</a>
+<div class="d-flex justify-content-between align-items-center d-block d-lg-none d-xl-none w-100">
+<button class="btn d-block d-lg-none d-xl-none text-secondary" type="button" id="sidebarCollapse">
+    <i class="fa fa-bars menu-icon"></i>
+  </button>
+<a class="navbar-brand d-flex justify-content-center" href="index.html">
+<img src="assets/images/karnimacikti.png" class="img-fluid logo"/>
+</a>
+ <button class="btn d-block d-lg-none d-xl-none text-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <i class="fa fa-ellipsis-v"></i>
+  </button>
+</div>
+
+  
+  
+
+<div class="collapse" id="collapseExample">
+  <div class="col-md-12 py-1">
+    <a href="login.html" class="btn text-dark mx-2"><i class="fa fa-bell"></i></a>
+<a href="login.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fas fa-sign-in-alt"></i> Giriş Yap</small></a>
+<a href="signup.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fa fa-user-plus" aria-hidden="true"></i> Kayıt Ol</small></a>
+  </div>
+</div>
+
+<div class="d-none d-lg-block d-xl-block">
+<a href="#" class="btn text-dark mx-2"><i class="fa fa-bell"></i></a>
+<a href="login.html" class="btn text-dark mx-2"><i class="fa fa-bell"></i></a>
+<a href="login.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fas fa-sign-in-alt"></i> Giriş Yap</small></a>
+<a href="signup.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fa fa-user-plus" aria-hidden="true"></i> Kayıt Ol</small></a>
+</div>
+  
+</div>
+</nav>
+<!--Navbar End-->
+
+<!--Navbar Menus(Desktop)-->
+<nav class="navbar-menus navbar-dark navbar-expand-lg py-1 d-none d-lg-block d-xl-block" id="navbar-menu">
+<div class="container">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto d-flex flex-wrap">
+      <li class="nav-item active">
+        <a class="navbar-menus-item" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-menus-item " href="page.html">Hakkımızda</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="navbar-menus-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Kategoriler
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="category.html">Yemek Tarifleri</a>
+          <a class="dropdown-item" href="category.html">Çorba Tarifleri</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="category.html">Tatlı Tarifleri</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-menus-item" href="#">Blog</a>
+      </li>
+      
+    </ul>
+  </div>
+   </div>
+</nav>
+<!--Navbar Menus(Desktop) End-->
+
+
+<!--Mobile Sidebar-->
+<nav id="sidebar">
+<div id="dismiss">
+    <i class="fa fa-times"></i>
+</div>
+<div class="sidebar-header">
+    <h4>KARNIM ACIKTI</h4>
+</div>
+<ul class="list-unstyled components">
+   <li><a href="index.html" class="left-item" title="Anasayfa" >Anasayfa</a></li>
+  <li><a href="hakkimizda.html" class="left-item" title="Anasayfa" >Hakkımızda</a></li>
+  <li><a href="category.html" class="left-item" title="Anasayfa" >Kategoriler</a></li>
+
+</ul>
+</nav>
+<!--Mobile Sidebar End-->
+</header>
+
+
+<div class="main">
+<div class="container mh-vh">
+
+<form>
+<div class="input-group mb-3 circle-20">
+  <input type="text" class="form-control circle-20" placeholder="Tarif veya yazar ara..." aria-label="Tarif veya yazar ara..." aria-describedby="button-addon2">
+  <div class="input-group-append rounded-circle mx-1">
+    <button class="btn btn-outline-secondary rounded-circle" type="button" id="button-addon1"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+</form>
+
+<div class="row">
+<div class="col-md-8">
+<h4>Nefis Ağlayan Pasta Tarifi</h4>
+<div class="card p-2 my-1 circle-10">
+<div class="d-flex">
+<img src="assets/images/enesakarsu.jpg" class="rounded-circle img-fluid" style="width: 40px; height: 40px;"/>
+<p class="pl-2 mt-2"><span>Enes Akarsu</span></p>
+</div>
+<div class="d-flex justify-content-between align-items-center mb-2">
+<span class="text-secondary post-info"><i class="fa fa-tag"></i> YEMEK TARİFLERİ</span>
+<span class="text-secondary post-info"><i class="fa fa-clock"></i> 2 dakika önce</span>
+</div>
+</div>
+<img src="assets/images/aglayanpasta.jpeg" class="img-fluid circle-10 card-img-lg mb-2" alt=""/>
+
+<div class="post-content">
+<div class="p-0">
+<h5>MALZEMELER</h5>
+<div class="requirements mb-3">
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 4 adet büyük boy yumurta</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1 su bardağı şeker</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1 su bardağı un</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 3 yemek kaşığı kakao(25gr)</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1 paket vanilya</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1 paket kabartma tozu</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 4 yemek kaşığı süt</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1 paket hazır çikolata sosu</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 2 paket krem şanti</a></li>
+    <li><a href="" class="btn-theme"><i class="fa fa-thumbtack thumbtack"></i> 1,5 su bardağı süt (kek pişince üstüne dökülecek)</a></li>
+</div>
+
+<h5>YAPILIŞI</h5>
+<div><p>Ağlayan pasta tarifi Nasıl yapılır?
+Öncelikle yumurtaların beyazını ve sarısını iki ayrı çırpma kabına ayırın. Yumurta beyazını bir fiske tuz ilavesi ile kar haline gelene kadar mikser yardımı ile çırpın.
+Ardından yumurta sarılarını toz şeker ilavesi ile köpük köpük olana kadar çırpın ve sıvıları ilave edin.</p>
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/aSMxURmZD0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Kısa bir süre daha çırpın. Ardından eleyerek un, kabartma tozu, kakao ve vanilyasını ilave edip tekrar karıştırın.
+Kar haline getirdiğiniz yumurta akını bu karışıma ilave edip, bir spatula yardımı ile alttan üste doğru hep aynı yönde yumurta köpüğünü çok söndürmeden karıştırın. Son olarak yağlanmış tepsiye dökün ve ısıtılmış fırında 170 derecede iyice pişirin.
+Pişen kek biraz ılınınca üzerine bir su bardağı sütü eşit olarak gezdirin. Ardından hazırladığınız kremşantiyi sürün. Bir süre dolapta dinlendirin.
+Son olarak bitter çikolatalı sosu pişirin ve biraz soğuduktan sonra kekin üzerine eşit bir şekilde yayın. Dolapta en az iki saat dinlendirip arzu edilen şekilde süsleyip servise sunabilirsiniz.</p></div>
+</div>
+<h5 class="theme-title"><i class="fa fa-comment text-theme"></i> YORUMLAR <div class="float-right"><span class="badge bg-theme">2</span></div></h5>
+
+<div class="card p-2 d-block mb-2 circle-10">
+<div class="d-flex">
+<img src="assets/images/enesakarsu.jpg" class="rounded-circle img-fluid" style="width: 50px; height: 50px;"/>
+<div class="col mt-3 mb-2">
+<h6>Enes Akarsu</h6>
+<small class="text-secondary">Enfes bir tarif. Ellerinize sağlık 🙏😇</small>
+</div>
+</div>
+<div class="text-right">
+<button type="button" class="circle-10 border-0 outline-0 text-secondary"><small><i class="fa fa-heart"></i> 22</small></button>
+<button type="button" class="circle-10 border-0 outline-0 text-secondary"><small><i class="fa fa-reply"></i> CEVAPLA</small></button>
+</div>
+</div>
+
+<div class="card p-2 d-block mb-3 circle-10">
+<div class="d-flex">
+<img src="assets/images/enesakarsu.jpg" class="rounded-circle img-fluid" style="width: 50px; height: 50px;"/>
+<div class="col mt-3 mb-2">
+<h6>Enes Akarsu</h6>
+<small class="text-secondary">Enfes bir tarif. Ellerinize sağlık 🙏😇</small>
+</div>
+</div>
+<div class="text-right">
+<button type="button" class="circle-10 border-0 outline-0 text-secondary"><small><i class="fa fa-heart"></i> 0</small></button>
+<button type="button" class="circle-10 border-0 outline-0 text-secondary"><small><i class="fa fa-reply"></i> CEVAPLA</small></button>
+</div>
+</div>
+
+<div class="col-md-10 p-0 mb-3">
+<h6>Adınız ve soyadınız:</h6>
+<input type="text" class="form-control mb-2" placeholder="Adınız ve soyadınız..."/>
+
+<h6>E-posta adresiniz:</h6>
+<input type="text" class="form-control mb-2" placeholder="E-posta adresiniz..."/>
+
+<h6>Yorumunuz:</h6>
+<textarea class="form-control mb-3" rows="6" placeholder="Bu konu hakkında ne düşünüyorsun?"></textarea>
+
+<div class="text-right">
+<button class="btn btn-primary circle-20"><small><i class="fa fa-paper-plane"></i> GÖNDER</small></button>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-md-4">
+<div class="card text-center mb-3">
+  <div class="card-header">
+    Yazar Hakkında
+  </div>
+  <div class="card-body">
+  <img src="assets/images/enesakarsu.jpg" class="img-fluid rounded-circle" alt="" style="width: 80px; height: 80px;"/>
+    <h5 class="card-title">Enes Akarsu</h5>
+    <p class="card-text text-secondary">Enes, yemek yemeği sevdiği kadar yemek yapmayı da sever. Bu yüzden yemeklerine sevgisini katar. Aslında tariflerin bu denli güzel olmasının nedeni budur.</p>
+    
+    <div class="d-flex justify-content-between align-items-center px-2 mb-2">
+    <div class="card p-1 circle-20">0 Takipçi</div>
+    <div class="card p-1 circle-20">12 Tarif</div>
+    <div class="card p-1 circle-20">0 Süper Tarif</div>
+    
+    </div>
+    
+    <a href="profile.html" class="btn bg-theme-gradient circle-20"><small><i class="fa fa-eye"></i> Profili Görüntüle</small></a>
+    
+  </div>
+</div>
+
+<h5 class="theme-title"><i class="fa fa-tag text-theme"></i> KATEGORİLER</h5>
+
+
+
+<form>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Yemek mi, tatlı mı? Hangisi?" aria-label="Yemek mi, tatlı mı? Hangisi?" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+</form>
+
+<ul class="list-group circle-10 mb-3">
+  <li class="list-group-item">Yemek Tarifleri</li>
+  <li class="list-group-item">Çorba Tarifleri</li>
+  <li class="list-group-item">Ev Yapımı İçecek Tarifleri</li>
+  <li class="list-group-item">Hamur İşi Tarifleri</li>
+  <li class="list-group-item">Basit Tarifler</li>
+</ul>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+
+<footer>
+<div class="footer py-4">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img src="assets/images/karnimacikti.png" class="img-fluid"/>
+<p class="footer-text">Karnım Acıktı, enfes yemek tariflerinin paylaşıldığı bir web sitesidir.</p>
+
+<div class="footer-social mb-3">
+<a href="#" class="btn btn-social"><i class="fab fa-facebook-square"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-instagram"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-youtube"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-linkedin"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="footer-links d-flex justify-content-between align-items-center">
+<a href="#" class="text-white">Anasayfa</a>
+<a href="#" class="text-white">Hakkımızda</a>
+<a href="#" class="text-white">İletişim</a>
+<a href="#" class="text-white">Künye</a>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+<div class="sub-footer py-2 container">
+<small>Karnım Acıktı &copy; 2021 | Tüm Hakları Saklıdır.</small>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+     $('#dismiss, .overlay').on('click', function () {
+          $('#sidebar').removeClass('active');
+          $('.overlay').removeClass('active');
+        });
+
+      $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').addClass('active');
+          $('.overlay').addClass('active');
+          $('.collapse.in').toggleClass('in');
+          $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+          });
+        });
+        
+
+
+
+
+
+
+
+
+
+
+
+
+var navbar = document.getElementById("navbar-menu");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("fixed-top")
+  } else {
+    navbar.classList.remove("fixed-top");
+  }
+}
+
+window.onscroll = function() {myFunction()};
+
+</script>
+
+</body>
+</html>

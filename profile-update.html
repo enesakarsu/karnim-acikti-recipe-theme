@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html lang="tr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Profili Düzenle - Karnım Acıktı</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="assets/css/style.css?ver=59"/>
+<link rel="stylesheet" href="assets/css/profile.css?ver=54"/>
+</head>
+<body>
+
+<!--HEADER-->
+<header>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+<a class="navbar-brand d-none d-lg-block d-xl-block" href="index.html">
+<img src="assets/images/karnimacikti.png" class="img-fluid logo d-none d-lg-block d-xl-block"/>
+</a>
+<div class="d-flex justify-content-between align-items-center d-block d-lg-none d-xl-none w-100">
+<button class="btn d-block d-lg-none d-xl-none text-secondary" type="button" id="sidebarCollapse">
+    <i class="fa fa-bars menu-icon"></i>
+  </button>
+<a class="navbar-brand d-flex justify-content-center" href="index.html">
+<img src="assets/images/karnimacikti.png" class="img-fluid logo"/>
+</a>
+ <button class="btn d-block d-lg-none d-xl-none text-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    <i class="fa fa-ellipsis-v"></i>
+  </button>
+</div>
+
+  
+  
+
+<div class="collapse" id="collapseExample">
+  <div class="col-md-12 py-1">
+    <a href="login.html" class="btn text-dark mx-2"><i class="fa fa-bell"></i></a>
+<a href="login.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fas fa-sign-in-alt"></i> Giriş Yap</small></a>
+<a href="signup.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fa fa-user-plus" aria-hidden="true"></i> Kayıt Ol</small></a>
+  </div>
+</div>
+
+<div class="d-none d-lg-block d-xl-block">
+<a href="#" class="btn text-dark mx-2"><i class="fa fa-bell"></i></a>
+<a href="login.html" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fas fa-sign-in-alt"></i> Giriş Yap</small></a>
+<a href="#" class="btn btn-outline-secondary circle-20 mx-1"><small><i class="fa fa-user-plus" aria-hidden="true"></i> Kayıt Ol</small></a>
+</div>
+  
+</div>
+</nav>
+<!--Navbar End-->
+
+<!--Navbar Menus(Desktop)-->
+<nav class="navbar-menus navbar-dark navbar-expand-lg py-1 d-none d-lg-block d-xl-block" id="navbar-menu">
+<div class="container">
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto d-flex flex-wrap">
+      <li class="nav-item active">
+        <a class="navbar-menus-item" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-menus-item " href="page.html">Hakkımızda</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="navbar-menus-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Kategoriler
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="category.html">Yemek Tarifleri</a>
+          <a class="dropdown-item" href="category.html">Çorba Tarifleri</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="category.html">Tatlı Tarifleri</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="navbar-menus-item" href="#">Blog</a>
+      </li>
+      
+    </ul>
+  </div>
+   </div>
+</nav>
+<!--Navbar Menus(Desktop) End-->
+
+
+<!--Mobile Sidebar-->
+<nav id="sidebar">
+<div id="dismiss">
+    <i class="fa fa-times"></i>
+</div>
+<div class="sidebar-header">
+    <h4>KARNIM ACIKTI</h4>
+</div>
+<ul class="list-unstyled components">
+   <li><a href="index.html" class="left-item" title="Anasayfa" >Anasayfa</a></li>
+  <li><a href="hakkimizda.html" class="left-item" title="Anasayfa" >Hakkımızda</a></li>
+  <li><a href="category.html" class="left-item" title="Anasayfa" >Kategoriler</a></li>
+
+</ul>
+</nav>
+<!--Mobile Sidebar End-->
+</header>
+
+
+
+<div class="main">
+<div class="container mh-vh">
+<form>
+<div class="input-group mb-3 circle-20">
+  <input type="text" class="form-control circle-20" placeholder="Tarif veya yazar ara..." aria-label="Tarif veya yazar ara..." aria-describedby="button-addon2">
+  <div class="input-group-append rounded-circle mx-1">
+    <button class="btn btn-outline-secondary rounded-circle" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+  </div>
+</div>
+</form>
+
+
+<div class="profile text-center col-md-12 py-3 circle-10 mb-4">
+<div class="profile-photo">
+<img src="assets/images/enesakarsu.jpg" class="img-fluid rounded-circle" alt=""/>
+</div>
+<div class="profile-body d-flex justify-content-center text-white">
+<div class="col-md-6">
+<h4>Enes Akarsu</h4>
+<div class="d-flex justify-content-between align-items-center text-theme my-3">
+<small>12 Tarif</small>
+<small>0 Takipçi</small>
+<small>0 Takip</small>
+</div>
+<p>Enes, yemek yemeği sevdiği kadar yemek yapmayı da sever. Bu yüzden yemeklerine sevgisini katar. Aslında tariflerin bu denli güzel olmasının nedeni budur.</p>
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+
+<div class="profile-settings">
+<h4><i class="fa fa-edit"></i> PROFİLİ DÜZENLE</h4>
+
+<h6>Profil Fotoğrafı:</h6>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Yükle</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Bir resim seçin...</label>
+  </div>
+</div>
+
+<div class="form-group">
+<h6>Adınız ve soyadınız:</h6>
+<input type="text" class="form-control circle-20" placeholder="Adınız ve soyadınız..."/>
+</div>
+
+<div class="form-group">
+<h6>Kullanıcı adınız:</h6>
+<input type="text" class="form-control circle-20" placeholder="Kullanıcı adınız..."/>
+</div>
+
+<div class="form-group">
+<h6>E-posta adresiniz:</h6>
+<input type="text" class="form-control circle-20" placeholder="E-posta adresiniz..."/>
+</div>
+
+<div class="form-group">
+<h6>Profil biyografiniz:</h6>
+<textarea class="form-control circle-20" placeholder="Profil biyografiniz..." rows="6"></textarea>
+</div>
+
+<div class="text-right">
+<button type="button" class="btn bg-theme-gradient circle-20"><i class="fas fa-save"></i> Kaydet</button>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="social-settings">
+<h4><i class="fa fa-user-friends"></i> SOSYAL MEDYA</h4>
+<p>Hiç sosyal medya hesabı eklemediniz.</p>
+<button type="button" class="btn btn-outline-dark"><i class="fa fa-plus"></i> Sosyal Medya Hesabı Ekle</button>
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</div> <!-- Container -->
+</div> <!-- Main -->
+
+
+
+
+<footer>
+<div class="footer py-4 mt-4">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<img src="assets/images/karnimacikti.png" class="img-fluid"/>
+<p class="footer-text">Karnım Acıktı, enfes yemek tariflerinin paylaşıldığı bir web sitesidir.</p>
+
+<div class="footer-social mb-3">
+<a href="#" class="btn btn-social"><i class="fab fa-facebook-square"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-instagram"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-youtube"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-linkedin"></i></a>
+<a href="#" class="btn btn-social"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="footer-links d-flex justify-content-between align-items-center">
+<a href="#" class="text-white">Anasayfa</a>
+<a href="#" class="text-white">Hakkımızda</a>
+<a href="#" class="text-white">İletişim</a>
+<a href="#" class="text-white">Künye</a>
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+<div class="sub-footer py-2 container">
+<small>Karnım Acıktı &copy; 2021 | Tüm Hakları Saklıdır.</small>
+</div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+     $('#dismiss, .overlay').on('click', function () {
+          $('#sidebar').removeClass('active');
+          $('.overlay').removeClass('active');
+        });
+
+      $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').addClass('active');
+          $('.overlay').addClass('active');
+          $('.collapse.in').toggleClass('in');
+          $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+          });
+        });
+        
+
+
+var navbar = document.getElementById("navbar-menu");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("fixed-top")
+  } else {
+    navbar.classList.remove("fixed-top");
+  }
+}
+
+window.onscroll = function() {myFunction()};
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+.profile-photo img{
+    width: 80px;
+    height: 80px;
+}
+.profile-body p{
+font-size: 0.9em;
+}
+}
+
+@media only screen and (max-width:800px){
+.profile-photo img{
+    width: 100px;
+    height: 100px;
+}
+.profile-body p{
+font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width: 992px){
+.profile-photo img{
+    width: 180px;
+    height: 180px;
+}
+}
+
+.profile{
+    background: #585655;
+}
